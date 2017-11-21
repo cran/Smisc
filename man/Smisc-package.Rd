@@ -2,19 +2,19 @@
 % Please edit documentation in R/Smisc-package.R
 \docType{package}
 \name{Smisc-package}
-\alias{Smisc}
 \alias{Smisc-package}
+\alias{Smisc}
 \title{Smisc: Sego Miscellaneous}
 \description{
-A collection of functions for statistical computing and data manipulation
+A collection of functions for statistical computing, data manipulation, and visualization
 }
 \details{
 \tabular{ll}{
 Package: \tab Smisc\cr
 Type: \tab Package\cr
-Version: \tab 0.3.6\cr
-Date: \tab 2016-06-22\cr
-License: \tab file LICENSE\cr
+Version: \tab 0.3.9\cr
+Date: \tab 2017-11-20\cr
+License: \tab BSD_3_clause + file LICENSE\cr
 }
 }
 \examples{
@@ -23,7 +23,6 @@ help(package = Smisc)
 \author{
 Landon Sego
 
-Maintainer: Landon Sego <Landon.Sego@pnnl.gov>
+Maintainer: Landon Sego <LHS@byu.net>
 }
 \keyword{package}
-

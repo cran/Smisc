@@ -1,32 +1,38 @@
 ## Smisc
 
-An R package containing a collection of functions for statistical computing and data manipulation.  You can find package documentation [here](https://pnnl.github.io/Smisc).
+An R package containing a collection of functions for statistical computing, data manipulation, and visualization.  You can find package vignettes and documentation [here](https://pnnl.github.io/Smisc).
 
 #### To cite:
 
 Sego LH. 2016. Smisc: Sego Miscellaneous. A collection of functions for statistical computing and data manipulation in R.
-Pacific Northwest National Laboratory. http://pnnl.github.io/Smisc.
+Pacific Northwest National Laboratory. https://pnnl.github.io/Smisc.
 
 #### To install:
 
-Before you get started, the source code of the `Smisc` package contains C code that requires compilation:
-  
-- Mac: you'll need to install **Xcode**
-- Windows: you'll need to install [R tools](http://cran.r-project.org/bin/windows/Rtools/)
+You can install the package from [CRAN](https://CRAN.R-project.org/) or from [GitHub](https://github.com):
+
+##### CRAN
+
+    install.packages("Smisc")
+
+##### GitHub
+
+You can install from  [GitHub](https://github.com) using the [devtools](https://CRAN.R-project.org/package=devtools) package,
+in which case you'll need these prerequistites in order to compile the C code in the `Smisc` package:
+
+- Mac: you'll need [Xcode](https://developer.apple.com/xcode/)
+- Windows: you'll need to install [R tools](https://CRAN.R-project.org/bin/windows/Rtools/)
 - Linux/Unix: compilation should take place automatically
 
-Then type the following in R:
+Now do the following in R:
 
-    # From CRAN
-    install.packages("Smisc") 
+    # If devtools is not already installed, do this:
+    install.packages("devtools") 
 
-
-    # Or from GitHub
-    install.packages("devtools") # if needed
+    # Now install the package
     devtools::install_github("pnnl/Smisc")
 
 #### Acknowledgements:
 
 This package was developed with support from the Signature Discovery Initiative at Pacific Northwest National Laboratory, conducted under the Laboratory Directed Research and Development Program at PNNL, a multiprogram national laboratory operated by Battelle for the U.S. Department of Energy. 
-
 

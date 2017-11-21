@@ -1,13 +1,13 @@
 ##' Smisc: Sego Miscellaneous
 ##'
-##' A collection of functions for statistical computing and data manipulation
+##' A collection of functions for statistical computing, data manipulation, and visualization
 ##'
 ##' \tabular{ll}{
 ##' Package: \tab Smisc\cr
 ##' Type: \tab Package\cr
-##' Version: \tab 0.3.6\cr
-##' Date: \tab 2016-06-22\cr
-##' License: \tab file LICENSE\cr
+##' Version: \tab 0.3.9\cr
+##' Date: \tab 2017-11-20\cr
+##' License: \tab BSD_3_clause + file LICENSE\cr
 ##' }
 ##'
 ##' @name Smisc-package
@@ -16,7 +16,7 @@
 ##'
 ##' @docType package
 ##'
-##' @useDynLib Smisc
+##' @useDynLib Smisc, .registration = TRUE
 ##'
 ##' @importFrom graphics abline axis axis.POSIXct legend lines par plot plot.default points
 ##' @importFrom grDevices rainbow
@@ -26,7 +26,7 @@
 ##'
 ##' @author Landon Sego
 ##'
-##' Maintainer: Landon Sego <Landon.Sego@@pnnl.gov>
+##' Maintainer: Landon Sego <LHS@byu.net>
 ##'
 ##' @keywords package
 ##'

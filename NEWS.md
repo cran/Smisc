@@ -1,3 +1,31 @@
+Version 0.3.9, 2017-11-20
+-----------------------------------------------------------------------------------
+
+FIXES
+
+- Email address update in `Smisc-package.Rd`, corrections to URLs
+
+
+Version 0.3.8, 2017-11-14
+-----------------------------------------------------------------------------------
+
+FIXES
+
+- System calls to R in `plapply()` corrected to call the version of R being used, as opposed to the one in the search path (thanks to Kurt Hornik for the feedback)
+
+FEATURES / CHANGES
+
+- Updates and minor edits to documentation
+
+
+Version 0.3.7, 2016-07-04
+-----------------------------------------------------------------------------------
+
+FEATURES / CHANGES
+
+- Numerical tests for `dkbinom()` relaxed to pass on SparcSolaris in the CRAN check
+
+
 Version 0.3.6, 2016-06-22
 -----------------------------------------------------------------------------------
 
@@ -5,6 +33,7 @@ FEATURES / CHANGES
 
 - `\donttest{}` added to examples for `timeIt()`, `dkbinom()`, `pddply()`, `hpd()`, and `dfplapply()` to appease CRAN.
 - Additional language added to `Description` in `DESCRIPTION`.
+
 
 Version 0.3.5, 2016-06-20
 -----------------------------------------------------------------------------------

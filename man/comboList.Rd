@@ -14,7 +14,7 @@ list of predictor combinations will be saved.  If NULL, then no file is
 saved.}
 
 \item{njobs}{Integer indicating the number of parallel jobs to be used in
-calculating the combinations, using \code{\link{parLapply}}}
+calculating the combinations, using \code{\link{parLapplyW}}}
 }
 \value{
 A list of class \code{combolist} is invisibly returned with the two
@@ -44,4 +44,3 @@ identical(x, y)
 Landon Sego
 }
 \keyword{misc}
-
