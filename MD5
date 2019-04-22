@@ -1,4 +1,4 @@
-5b34b6e34e53eb072147eab5c61b740f *DESCRIPTION
+21cc9e68a895c49eff1f36d783b6554d *DESCRIPTION
 37fbbde1281dd437dbf0c984944ed2ec *LICENSE
 35213bbb81261f8c3859f7ec5a3ac365 *NAMESPACE
 52c63f3296141dfa2c9af1e4558bebc7 *NEWS.md
@@ -139,7 +139,7 @@ ba2e8c9f54f356c779ef064605fa0d19 *src/max.le.i.c
 eb3e89d5697e6e89472054327ca8ac23 *src/psi_n_t.c
 87b43ab727692383140ef2f0cfbe9665 *src/smartFilter.c
 f75ea384b149b2a4a195bfdfb64577cc *tests/runtest
-8e64b6c5a8362b534154655c042f6fad *tests/testthat.R
+ad0d48e405c05d015c8a4b7868955842 *tests/testthat.R
 223342bc0c45f376f5a4e468ed88a87e *tests/testthat/function_list.txt
 1b1d0b2afca89fd35578ba6f7567c966 *tests/testthat/test_allMissing.R
 b1283dcb0fd5810b0bd26d3d8eb453e8 *tests/testthat/test_as.numericSilent.R

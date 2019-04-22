@@ -1,6 +1,6 @@
 Package: Smisc
 Title: Sego Miscellaneous
-Version: 0.3.9
+Version: 0.3.9.1
 Date: 2017-11-20
 Authors@R: c(person("Landon", "Sego", role = c("aut", "cre"), email = "LHS@byu.net"))
 URL: https://pnnl.github.io/Smisc
@@ -13,8 +13,8 @@ Imports: parallel, utils, plyr, doParallel, methods
 Suggests: testthat, foreach
 License: BSD_3_clause + file LICENSE
 RoxygenNote: 6.0.1
-Packaged: 2017-11-21 04:28:57 UTC; lhs
+Packaged: 2019-04-21 08:02:40 UTC; ripley
 Author: Landon Sego [aut, cre]
 Maintainer: Landon Sego <LHS@byu.net>
 Repository: CRAN
-Date/Publication: 2017-11-21 08:42:08 UTC
+Date/Publication: 2019-04-22 06:54:29 UTC
